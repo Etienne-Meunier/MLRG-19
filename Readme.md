@@ -28,9 +28,11 @@ This talk rely essentially on paper [1] that study the influence of the size of 
 <u>Stochastic Gradient Descent :</u> 
 
 Gradient descent is an iterative method for optimizing objective differentiable function. In the classic version we use the actual gradient of the dataset ( The error for the all dataset is computed ). The stochastic version use an estimate calculated on a random part of the dataset ( the concept of a batch).
+
 $$
 x_{k+1}=x_{k}-\alpha_{k}\left(\frac{1}{\left|B_{k}\right|} \sum_{i \in B_{k}} \nabla f_{i}\left(x_{k}\right)\right)
 $$
+
 Where $B_k$ is the batch.
 
 The stochastic gradient descent guarantees : 
