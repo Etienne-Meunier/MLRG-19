@@ -6,12 +6,15 @@ x,y = sy.symbols('x y')
 sy.init_printing(use_unicode=True)
 
 #%% Define Function
-#f = x**4+y**2-x*y # function 2 from Stanford
-f = 4*x + 2*y - x**2 -3*y**2
+f = x**4+y**2-x*y # function 2 from Stanford
+#f = 4*x + 2*y - x**2 -3*y**2
 
-df_dx = sy.diff(f,x)
+f
+
 df_dy = sy.diff(f,y)
+df_dx = sy.diff(f,x)
 
+df_dx
 #%% Find critical points
 cr  =sy.nonlinsolve([df_dx,df_dy],[x,y])
 print('critical points',cr)

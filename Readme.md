@@ -111,7 +111,7 @@ They also present techniques where we increase gradually the batch size with the
 
 Apparently **Data Augmentation**, **Conservative Training** and **Robust Training** are techniques that help to improve performances with large batch and reduce the sharpness of the peaks. 
 
-Apart from this paper, it is important to note that other experimentation show that having large batch size can also be an advantage in the case we have a noisy labeling or outliers within the dataset. I also personally observed that on practical examples with noisy datasets. b24a2c211f522372888c138f80788231
+Apart from this paper, it is important to note that other experimentation show that having large batch size can also be an advantage in the case we have a noisy labeling or outliers within the dataset. I also personally observed that on practical examples with noisy datasets. 
 
 [[1](https://arxiv.org/abs/1609.04836)] On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima
 
